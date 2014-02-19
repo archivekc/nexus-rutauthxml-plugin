@@ -11,6 +11,39 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>nexus-plugin</packaging>
 
+	<organization>
+		<name>Key Consulting</name>
+		<url>http://www.keyconsulting.fr</url>
+	</organization>
+
+	<developers>
+		<developer>
+			<id>sveyrie</id>
+			<name>Sylvain Veyrié</name>
+		</developer>
+	</developers>
+
+	<inceptionYear>2014</inceptionYear>
+	<url>https://github.com/key-consulting/nexus-rutauthxml-plugin</url>
+
+	<licenses>
+		<license>
+			<name>Eclipse Public License</name>
+			<url>http://www.eclipse.org/legal/epl-v10.html</url>
+		</license>
+	</licenses>
+
+	<issueManagement>
+		<system>github</system>
+		<url>https://github.com/key-consulting/nexus-rutauthxml-plugin/issues</url>
+	</issueManagement>
+
+	<scm>
+		<connection>scm:git:git://github.com/key-consulting/nexus-rutauthxml-plugin.git</connection>
+		<developerConnection>scm:git:git@github.com:key-consulting/nexus-rutauthxml-plugin.git</developerConnection>
+		<url>https://github.com/key-consulting/nexus-rutauthxml-plugin</url>
+	</scm>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.sonatype.nexus</groupId>
@@ -32,12 +65,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
-	<licenses>
-		<license>
-			<name>Eclipse Public License</name>
-			<url>http://www.eclipse.org/legal/epl-v10.html</url>
-		</license>
-	</licenses>
 
 </project>
