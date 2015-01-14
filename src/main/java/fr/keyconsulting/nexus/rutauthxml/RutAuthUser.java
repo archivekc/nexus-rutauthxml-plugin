@@ -131,16 +131,4 @@ public class RutAuthUser implements User {
 		this.status = status;
 	}
 
-	@Override
-	@Deprecated
-	public boolean isReadOnly() {
-		return false;
-	}
-
-	@Override
-	@Deprecated
-	public void setReadOnly(boolean readOnly) {
-		// do nothing
-	}
-
 }
